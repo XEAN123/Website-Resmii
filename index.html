@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== link to font awesome =======================-->
+    <script src="https://kit.fontawesome.com/e944101661.js" crossorigin="anonymous"></script>
+    <!--==================== link to css =======================-->
+    <link rel="stylesheet" href="style.css">
+    <!--==================== link to cdn swiper js =======================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Group 3</title>
+</head>
+
+<body>
+    <!--==================== header start =======================-->
+    <header>
+        <a href="#" class="logo">
+            <img src="image/logo-sekolah.webp" alt="Logo Sekolah" class="logo-img">
+        </a>
+        <nav class="navbar">
+            <a href="#home" id="home-link">Home</a>
+            <a href="#about" id="about-link">About</a>
+            <a href="#gallery" id="gallery-link">Gallery</a>
+            <a href="#review" id="review-link">Review</a>
+            <a href="#contact" id="contact-link">Contact</a>
+        </nav>
+        <div class="icon">
+            <i class="fa-solid fa-user log-in"></i>
+            <i class="fa-sharp fa-solid fa-bars menu"></i>
+            <div class="day-night">
+                <i class="fa-solid "></i>
+            </div>
+        </div>
+        <!--==================== form start =======================-->
+        <div class="form-container">
+            <div class="form">
+                <i class="fa-solid fa-xmark close-btn"></i>
+                <a href="#" class="logo-1">
+                    <img src="image/logo-sekolah.webp" alt="Logo Sekolah" class="logo-img">
+                </a>
+            </div>
+            <div class="form-flex">
+                <input type="email" name="email" placeholder="Enter Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="flex">
+                <p>
+                    <input type="checkbox" id="remember-me" required>
+                    <label for="remember-me">Remember Me</label>
+                </p>
+                <a href="#" class="forget">Forget password</a>
+            </div>
+            <input type="submit" value="Log In" class="log-btn">
+            <span class="create">Don't have an account? <a href="#">Create One</a></span>
+        </div>
+        <!--==================== form end =======================-->
+    </header>
+    <!--==================== header end =======================-->
+
+    <!--==================== home start=======================-->
+    <section class="home container" id="home">
+        <div class="video-container">
+            <video src="video/video9.mp4" id="video-slider" loop muted autoplay></video>
+        </div>
+        <div class="home-text">
+            <h2 class="semi-transparent">FORT MORAYA AND HEROES' CEMETERY</h2>
+            <h5>Group 3's visit to Fort Moraya and the Heroes' Cemetery</h5>
+        </div>
+        <div class="video-controls">
+            <button class="control-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="control-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <!--== navbar mobile ==-->
+        <div class="mobile-video-nav"></div>
+    </section>
+    <!--==================== home end =======================-->
+
+    <!--==================== about section start =======================-->
+    <section class="about section" id="about">
+        <div class="content">
+            <h1 class="title">About Us</h1>
+            <p class="description">Welcome to our website! We are students from SMKS Kristen 2 Tomohon, Software Development and GIM (PPLG) program. This website was created as part of our project to document our trip to Fort Moraya and the grave of National Hero G.S.S.J. Ratulangi.
+
+                In this project, we sought to combine technology and local culture to present historical information in a modern and engaging way. By utilizing HTML, CSS, and JavaScript, we created a unique interactive and visual experience, accompanied by AI voice elements that provide interesting explanations about these historical sites.
+                
+                Our goal is to provide a clear and informative overview of the history of the Tondano area, with a focus on Fort Moraya and the services of national heroes. We hope this website can be a valuable source of knowledge while showcasing creativity in technology.</p>
+            </div>
+        </div>
+    </section>
+    <!--==================== about section end =======================-->
+
+    <!--==================== gallery section start =======================-->
+    <section class="gallery section" id="gallery">
+        <div class="content">
+            <h1 class="title">Galery</h1>
+            <p class="description">Explore a collection of photos and videos from our visit to Fort Moraya and Heroes Cemetery.</p>
+            <div class="gallery-grid">
+                <img src="image/gallery1.jpg" alt="Gambar Galeri 1" class="gallery-item">
+                <img src="image/gallery2.jpg" alt="Gambar Galeri 2" class="gallery-item">
+                <img src="image/gallery3.jpg" alt="Gambar Galeri 3" class="gallery-item">
+            </div>
+        </div>
+    </section>
+    <!--==================== gallery section end =======================-->
+
+    <!--==================== review section start =======================-->
+    <section class="review section" id="review">
+        <div class="content">
+            <h1 class="title">Review</h1>
+            <p class="description">Read reviews and testimonials from visitors and participants about their experiences during our activities.</p>
+            <div class="review-slider">
+                <div class="review-item">"What an amazing experience! I was so inspired by this visit." - John Doe</div>
+                <div class="review-item">"Very informative and fun. I learned a lot about the history of Moraya." - Jane Smith</div>
+                <div class="review-item">"A very useful and educational activity. Thank you!" - Michael Johnson</div>
+                <div class="review-item">"It's amazing! I will recommend this to my friends." - Sarah Lee</div>
+                <div class="review-item">"It was an unforgettable experience. I really enjoyed every moment of it." - David Brown</div>
+                <div class="review-item">"Very impressive and educational. I will be back again!" - Emily White</div>
+            </div>
+        </div>
+    </section>
+    <!--==================== review section end =======================-->
+
+    <!--==================== contact section start =======================-->
+    <section class="contact section" id="contact">
+        <div class="content">
+            <h1 class="title">Contact Us</h1>
+            <p class="description">Contact us for more information about our activities and how you can get involved.</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!--==================== contact section end =======================-->
+
+    <!--==================== footer section start =======================-->
+    <footer class="footer section">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h2>About Us</h2>
+                <p>Welcome to our website! We are students from SMKS Kristen 2 Tomohon, Software Development and GIM (PPLG) program. This website was created as part of our project to document our trip to Fort Moraya and the grave of National Hero G.S.S.J. Ratulangi.
+
+                    In this project, we sought to combine technology and local culture to present historical information in a modern and engaging way. By utilizing HTML, CSS, and JavaScript, we created a unique interactive and visual experience, accompanied by AI voice elements that provide interesting explanations about these historical sites.
+                    
+                    Our goal is to provide a clear and informative overview of the history of the Tondano area, with a focus on Fort Moraya and the services of national heroes. We hope this website can be a valuable source of knowledge while showcasing creativity in technology.</p>
+            </div>
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PPLG3. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--==================== footer section end =======================-->
+
+    <!--==================== link to cdn swiper js =======================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--==================== link to javascript =======================-->
+    <script src="script.js"></script>
+</body>
+
+</html>
